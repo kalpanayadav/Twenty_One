@@ -15,7 +15,8 @@ InIt <- function(){
 	return(deck)
    }
 
-# Shuffling the deck of cards randomly
+# Shuffling the deck of cards randomly to get a random card each ime
+
 
 Shuffle <- function(deck){
 
