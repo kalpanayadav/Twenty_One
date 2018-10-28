@@ -2,7 +2,7 @@
  
 InIt <- function(){ 
 
-# Define suits, cards, values
+# Define suits, cards, values assigned
 
 	suits <- c("Spades", "Clubs", "Hearts", "Diamonds")
 	cards <- c("Ace", "Two", "Three", "Four","Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King")
