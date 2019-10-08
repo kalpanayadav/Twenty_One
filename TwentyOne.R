@@ -61,20 +61,20 @@ TwentyOne <- function(){
       AddScore <- function(score){
 
 	if((top$value==11) && (score+top$value)>21)
-   {
-	score <- (score + (top$value - 10))
-	cat(score,"\n")
-	return(score)
-   }
+   	{
+		score <- (score + (top$value - 10))	
+		cat(score,"\n")
+		return(score)
+   	}
 	else
-   {
-	score <- score + top$value
-	cat(score,"\n")
-	return(score)
-   }
+	   {
+		score <- score + top$value
+		cat(score,"\n")	
+		return(score)
+   	}
        }
 
-	Deal()
+	Deal()  #calling function deal
 	score <<- AddScore(score)
 
 	readcharacter <- function()
